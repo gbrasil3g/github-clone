@@ -25,13 +25,13 @@ const Repo: React.FC = () => {
 
         <span>/</span>
 
-        <Link className={'reponame'} to={'/gbrasil3g/nlwProffy'}>
+        <Link className={'reponame'} to={'/gbrasil3g/github-clone'}>
           nlwProffy
           </Link>
 
       </Breadcrumb>
 
-      <p>Site desenvolvido na NLW#2 pela Rocketseat</p>
+      <p>A GitHub clone builded in: https://www.youtube.com/watch?v=iLEbGQXsg3k || by Guilherme Rodz</p>
 
       <Stats>
         <li>
@@ -47,7 +47,7 @@ const Repo: React.FC = () => {
         </li>
       </Stats>
 
-      <LinkButton href={'https://github.com/gbrasil3g/nlwProffy'}>
+      <LinkButton href={'https://github.com/gbrasil3g/github-clone'}>
         <GithubIcon />
         <span>View on GitHub</span>
       </LinkButton>
